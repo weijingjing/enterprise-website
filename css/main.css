@@ -43,14 +43,16 @@ body {
     background-color: #fff;
 }
 .logo_left{
-    width:200px;
+    width:375px;
     float:left;
+    display:inline;
 }
 .logo_right{
     width:300px;
     float:right;
     height:28px;
     margin-top:30px;
+    display:inline;
     color:#8E8E8E;
 }
 .logo_right img{
@@ -72,6 +74,7 @@ body {
 .nav_mid{
     width:980px;
     background:url(../images/nav_bg.jpg) repeat-x;
+    line-height: 40px;
 }
 .nav_right{
     width:10px;
@@ -80,9 +83,11 @@ body {
 .nav_left,.nav_mid,.nav_right{
     float:left;
     height:40px;
+    display: inline;
 }
 .nav_mid_left,.nav_mid_right{
-    float:left
+    float:left;
+    display:inline;
 }
 .nav_mid_left{
     width:680px;
@@ -119,3 +124,4 @@ body {
     padding-right:25px;
     border:solid 1px #fff;
 }
+
