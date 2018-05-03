@@ -145,7 +145,7 @@ body {
 /* 内容区域 */
 .main {
     width:1000px;
-    margin-top:5px;
+    margin:5px auto;
     background-color: #fff;
 }
 .news {
@@ -260,7 +260,6 @@ body {
     width:100%;
     height:200px;
     background-color:#8E8E8E;
-    margin-top:260px;
     /* 清除浮动 */
     clear:both;
 }
@@ -295,7 +294,10 @@ body {
 .news_type {
     width:220px;
     height:350px;
-    border:1px solid #E8E8E8;
+    border:1px solid #8e8e8e;
+    display: inline-block;
+    margin: 5px auto;
+    vertical-align: top;
 }
 .list_box{
     width:770px;
@@ -303,6 +305,10 @@ body {
     /* IE66识别 */
     _height:350px;
     border:1px solid #8E8E8E;
+    display: inline-block;
+    margin: 5px auto;
+    vertical-align: top;
+    background-color: #fff;
 }
 .new_type h2{
     height:35px;
@@ -314,8 +320,10 @@ body {
     padding-left:20px;
 }
 .news_type_content {
-    height:365px;
-    background: url(../images/content_bg.jpg) no-repeat;
+    height:300px;
+    background: url(../images/content_bg.gif) no-repeat;
+    padding: 5px;
+    
 }
 .news_type_content li {
     list-style-type:none;
@@ -340,7 +348,7 @@ body {
     font-family:"微软雅黑";
     color:#8e8e8e;
     font-size: 14px;
-    background:url(../images/type_bg.gif) repeat-x;
+    background:url(../images/type_bg.png) repeat-x;
     padding-left:20px;
 }
 .page {
@@ -360,4 +368,22 @@ body {
 }
 .page a:hover,.page a:active {
     background-color: #cc1b1b;
+}
+.list_box h1{
+    font-family: "微软雅黑";
+    font-size:20px;
+    text-align: center;
+    margin:10px 0;
+}
+.list_box_newsInfo {
+    color:#666;
+    text-align: center;
+    border-bottom:1px dotted #666;
+}
+.list_box_content {
+    font-size: 14px;
+    padding:20px;
+    line-height: 25px;
+    /* 首行缩进 */
+    text-indent:2em;
 }
